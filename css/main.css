@@ -1,8 +1,40 @@
 html {
-  font-family: 'Droid Serif', serif;
+  font-family: "Droid Serif", serif;
 }
 
-header {
+header,
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input,
+select,
+.checkboxes,
+textarea {
+  border-color: #6e8c62;
+}
+
+.optional {
+  color: #70ad55;
+}
+
+hr {
+  border-top: 2px solid #70ad55;
+}
+
+fieldset {
+  border: none;
+}
+
+.btn-dark {
+  border: #6e8c62;
+  background-color: #6e8c62;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  border: #70ad55;
   background-color: #70ad55;
   color: #fff;
 }
