@@ -38,3 +38,11 @@ fieldset {
   background-color: #70ad55;
   color: #fff;
 }
+
+@media only screen and (min-width: 38em) {
+
+  .textbox-gutter {
+    padding-right: 1em;
+  }
+
+}
