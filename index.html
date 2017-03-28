@@ -21,22 +21,22 @@
     <form class="push-0 wrapper" action="index.html" method="POST">
       <fieldset class="">
         <legend class="pad-t-2 pad-b giga">Personal details</legend>
-        <div class="">
-          <div class="push">
+        <div class="grid">
+          <div class="push unit textbox-gutter [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="name">Full name</label>
             <input id="name">
             <p class="italic push-none micro">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
           </div>
-          <div class="push">
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="name">What should we call you?</label>
             <input name="name" id="additional">
             <p class="italic push-none micro">What all your friends call you, e.g. “Liz”.</p>
           </div>
-          <div class="push">
+          <div class="push unit textbox-gutter [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="date">Date of birth</label>
             <input type="number" name="number" placeholder="yyyy-mm-dd">
           </div>
-          <div class="push">
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="shirt">T-shirt size</label>
             <select class="" id="shirt" name="shirt">
               <option>Select a t-shirt size</option>
@@ -52,11 +52,11 @@
               <option>Straight-cut: XL</option>
             </select>
           </div>
-          <div class="push">
+          <div class="push unit textbox-gutter [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
           </div>
-          <div class="push">
+          <div class="push unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="number">Phone number <b class="not-bold optional italic">(optional)</b> </label>
             <input type="tel" name="number" id="phone">
           </div>
@@ -67,16 +67,16 @@
 
       <fieldset class="">
         <legend class="push giga">Address</legend>
-        <div class="">
-          <div class="push">
+        <div class="grid">
+          <div class="push unit textbox-gutter [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="street">Street name</label>
             <input id="street">
           </div>
-          <div class="push-2">
+          <div class="push-2 unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="city">City</label>
             <input name="name" id="city">
           </div>
-          <div class="push">
+          <div class="push pad-t-1-2 unit textbox-gutter [ xs-1 s-1 m-1-2 l-1-2 ] ">
             <label for="province">Province</label>
             <select class="province" id="province" name="name">
               <option>Select a province</option>
@@ -95,7 +95,7 @@
               <option>Yukon</option>
             </select>
           </div>
-        <div class="push pad-t-1-2">
+        <div class="push pad-t-1-2 unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
           <label for="postal">Postal code</label>
           <input type="number" name="number" id="postal">
         </div>
@@ -106,96 +106,103 @@
 
     <div class="">
       <label for="activity" class="push-1-2 giga bold">What activities are you interested in helping with? </label>
-      <div class="">
-        <div class="">
-          <div class="push-1-4">
-            <input type="checkbox" name="dig" id="hole" class="checkboxes">
-            <label for="dig">Digging holes</label>
-          </div>
-          <div class="push-1-4">
-            <input type="checkbox" name="get" id="dirty" class="checkboxes">
-            <label for="dig">Getting dirty</label>
-          </div>
-          <div class="push-1-4">
-            <input type="checkbox" name="lift" id="object" class="checkboxes">
-            <label for="dig">Lifting heavy objects</label>
-          </div>
-          <div class="push-1-4">
-            <input type="checkbox" name="driving" id="people" class="checkboxes">
-            <label for="dig">Driving people</label>
+      <div class="grid">
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
+          <div class="grid">
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="dig" id="hole" class="checkboxes">
+              <label for="dig">Digging holes</label>
+            </div>
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="get" id="dirty" class="checkboxes">
+              <label for="dig">Getting dirty</label>
+            </div>
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="lift" id="object" class="checkboxes">
+              <label for="dig">Lifting heavy objects</label>
+            </div>
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="driving" id="people" class="checkboxes">
+              <label for="dig">Driving people</label>
+            </div>
           </div>
         </div>
-        <div>
-          <div class="push-1-4">
-            <input type="checkbox" name="transport" id="tree" class="checkboxes">
-            <label for="dig">Transporting trees</label>
-          </div>
-          <div class="push-1-4">
-            <input type="checkbox" name="take" id="photo" class="checkboxes">
-            <label for="dig">Taking photos</label>
-          </div>
-          <div class="push-1-4">
-            <input type="checkbox" name="online" id="publish" class="checkboxes">
-            <label for="dig">Online publishing</label>
-          </div>
-          <div class="push-2">
-            <input type="checkbox" name="people" id="manage" class="checkboxes">
-            <label for="dig">Managing people</label>
-          </div>
+
+        <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
+          <div class="grid">
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="transport" id="tree" class="checkboxes">
+              <label for="dig">Transporting trees</label>
+            </div>
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="take" id="photo" class="checkboxes">
+              <label for="dig">Taking photos</label>
+            </div>
+            <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="online" id="publish" class="checkboxes">
+              <label for="dig">Online publishing</label>
+            </div>
+            <div class="push-2 unit [ xs-1 s-1 m-1 l-1 ] ">
+              <input type="checkbox" name="people" id="manage" class="checkboxes">
+              <label for="dig">Managing people</label>
+            </div>
         </div>
       </div>
-
+    </div>
       <div>
         <label for="experience" class="push-1-2 giga bold">Do you have any experience with the following?</label>
-        <div class="">
-          <div class="">
-            <div class="push-1-4">
-              <input type="checkbox" name="shovel" id="shovel" class="checkboxes">
-              <label for="shovel">Shovels</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="hand" id="gps" class="checkboxes">
-              <label for="dig">Hand-held GPS</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="write" id="blog" class="checkboxes">
-              <label for="dig">Writing & blogging</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="photo" id="gallery" class="checkboxes">
-              <label for="dig">Photography</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="trail" id="climb" class="checkboxes">
-              <label for="dig">Trail & hill climbing</label>
+        <div class="grid">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
+            <div class="grid">
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="shovel" id="shovel" class="checkboxes">
+                <label for="shovel">Shovels</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="hand" id="gps" class="checkboxes">
+                <label for="dig">Hand-held GPS</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="write" id="blog" class="checkboxes">
+                <label for="dig">Writing & blogging</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="photo" id="gallery" class="checkboxes">
+                <label for="dig">Photography</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="trail" id="climb" class="checkboxes">
+                <label for="dig">Trail & hill climbing</label>
+              </div>
             </div>
           </div>
-          <div>
-            <div class="push-1-4">
-              <input type="checkbox" name="craft" id="brush" class="checkboxes">
-              <label for="dig">Bush craft</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="atvs" id="atvs" class="checkboxes">
-              <label for="dig">ATVs</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="plant" id="indentity" class="checkboxes">
-              <label for="dig">Plant identification</label>
-            </div>
-            <div class="push-1-4">
-              <input type="checkbox" name="special" id="event" class="checkboxes">
-              <label for="dig">Special event planning</label>
-            </div>
-            <div class="push-2">
-              <input type="checkbox" name="speak" id="group" class="checkboxes">
-              <label for="dig">Speaking to groups</label>
+          <div class=" unit [ xs-1 s-1 m-1-2 l-1-2 ] ">
+            <div class=" grid">
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="craft" id="brush" class="checkboxes">
+                <label for="dig">Bush craft</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="atvs" id="atvs" class="checkboxes">
+                <label for="dig">ATVs</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="plant" id="indentity" class="checkboxes">
+                <label for="dig">Plant identification</label>
+              </div>
+              <div class="push-1-4 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="special" id="event" class="checkboxes">
+                <label for="dig">Special event planning</label>
+              </div>
+              <div class="push-2 unit [ xs-1 s-1 m-1 l-1 ] ">
+                <input type="checkbox" name="speak" id="group" class="checkboxes">
+                <label for="dig">Speaking to groups</label>
+              </div>
             </div>
           </div>
         </div>
-
-        <hr class="push-2">
-
+      <hr class="push-2">
+      <div>
         <div class="push-2">
           <label for="drive" class="push-1-2 giga bold">Do you have a valid driver’s license?</label>
           <input type="radio" id="yes" name="yes">
@@ -217,8 +224,7 @@
           <input type="radio" id="no" name="no">
           <label for="no">No</label>
         </div>
-
-
+      </div>
       <hr class="push-2">
 
       <div>
